@@ -1,0 +1,22 @@
+[
+  {
+    "dataset": "drywall",
+    "split": "valid",
+    "tag": "segment_taping_area",
+    "n_images": 250,
+    "n_scored": 250,
+    "missing": 0,
+    "mIoU": 0.12361745035294994,
+    "Dice": 0.1974695611281883
+  },
+  {
+    "dataset": "cracks",
+    "split": "test",
+    "tag": "segment_crack",
+    "n_images": 4,
+    "n_scored": 4,
+    "missing": 0,
+    "mIoU": 0.13939900999974822,
+    "Dice": 0.22803580201632123
+  }
+]

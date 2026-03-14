@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Model weights (too large for GitHub)
+weights/
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# Datasets (too large for GitHub)
+cracks-1/
+Drywall-Join-Detect-1/
+
+# Generated outputs (large mask files)
+outputs/
+
+# Results (keep metrics, ignore visuals if large)
+results/visuals/
+
+# GroundingDINO repo internals (cloned separately)
+GroundingDINO/
+
+# Debug scripts
+debug.py
+debug2.py
+debug3.py
+patch_gdino.py
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Logs
+*.log
