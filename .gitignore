@@ -33,17 +33,9 @@ Drywall-Join-Detect-1/
 # Generated outputs (large mask files)
 outputs/
 
-# Results (keep metrics, ignore visuals if large)
-results/visuals/
-
 # GroundingDINO repo internals (cloned separately)
 GroundingDINO/
 
-# Debug scripts
-debug.py
-debug2.py
-debug3.py
-patch_gdino.py
 
 # OS
 .DS_Store
